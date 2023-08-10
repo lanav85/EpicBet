@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%@taglib uri="http://java.sun.com/jstl/core" prefix="c" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,11 +60,11 @@
                                         <div class="form-group">
                         
                                         </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                        <a href="<c:url value="home"/>" class="btn btn-primary btn-user btn-block">
                                             Login
                                         </a>
                                         <hr>
-                                        <a href="register.html" class="btn btn-google btn-user btn-block">
+                                        <a href="<c:url value="register"/>" class="btn btn-google btn-user btn-block">
                                             Register
                                         </a>
                                         
